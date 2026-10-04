@@ -22,7 +22,7 @@ class VersionControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().json("""
                         {
-                          "version": "1.0.0",
+                          "version": "2.0.0",
                           "environment": "BLUE"
                         }
                         """));
